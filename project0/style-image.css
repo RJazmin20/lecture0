@@ -1,0 +1,49 @@
+div{
+		text-align: right;
+		text-decoration: none;
+		margin-right:10px;
+		margin-top: 4px;
+				
+	}
+	
+	
+	
+	form{
+				text-align: center;
+				margin-left: 280px
+				
+	}
+	
+	.googleI{
+				height: 95px;
+				width: 285px;
+				margin: 30px auto;
+			   display:block;
+				margin-top: 120px;
+				
+	}
+	
+	#textS{
+				height: 50px;
+				width: 450px;
+				border-radius: 25px;
+			
+	}
+	#btnI{
+		text-align:left;
+		margin-left: 170px;
+		margin-top: 20px;
+		height: 100px;
+	}
+	
+	
+	#buttonI{
+			font-size: 15px;
+			border-radius: 4px;
+			text-align: center;
+			padding: 10px;
+			color: #686868;
+			width:130px; 
+				
+					
+	}
