@@ -10,7 +10,7 @@ div{
 	
 	form{
 				text-align: center;
-				margin-left: 280px
+				margin-left: 295px
 				
 	}
 	
@@ -31,19 +31,9 @@ div{
 	}
 	#btnI{
 		text-align:left;
-		margin-left: 170px;
+		margin-left: 150px;
 		margin-top: 20px;
 		height: 100px;
+			
 	}
 	
-	
-	#buttonI{
-			font-size: 15px;
-			border-radius: 4px;
-			text-align: center;
-			padding: 10px;
-			color: #686868;
-			width:130px; 
-				
-					
-	}

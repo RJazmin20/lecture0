@@ -1,4 +1,4 @@
-#btn1 {
+#btn1,#btn2 {
   font-size: 14px;
   font-family: Arial;
   border-radius: 4px;
@@ -7,13 +7,8 @@
   color: #686868;
   width: 130px; }
 
-#btn2 {
-  font-size: 14px;
-  font-family: Arial;
-  border-radius: 4px;
-  text-align: center;
-  padding: 10px;
-  color: #686868;
-  width: 130px; }
 
+
+	
+	
 /*# sourceMappingURL=variables.css.map */

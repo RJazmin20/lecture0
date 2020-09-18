@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="eng">
 	<head>
-	<link rel="stylesheet" href="style-advanced.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style-advanced.css">
 	
 		<title> Advanced Search </title>
 	</head>
 	<body>
-		<div>
+		<div id= "Back">
 		<a href="index.html"> Back to Search  </a> 
 		</div>
+		<p id= "title"> Advanced Search </p>
+		<form action="/search" id="s1zaZb" method="GET" name="f">
+			<div id="AdvancedForm">
+				<div id="Stitle">
+				<span> Find pages with...</span>
+				</div>
+					<table>
+						<tr>
+						
+							<th> <label for="all" class ="Text">all these words</label> </th>
+							<th>	<input class="form-control form-control-sm" value="" autofocus="autofocus" id="all" name="as_q" type="text">
+							</th>
+						</tr>
+						
+						<tr>
+							<th><label for="exact" class ="Text"> this exact word or phrase: </label></th>
+							<th><input class="form-control form-control-sm" value="" id="exact" name="as_epq" type="text"> 
+							</th>			
+						</tr>
+						
+						<tr>
+								<th><label for="any"class ="Text">any of these words:</label> </th>
+								<th>
+								<input class="form-control form-control-sm" value="" id="any" name="as_oq" type="text"> </div> 
+								</th>
+						</tr>
+							
+						<tr>
+								<th><label for="none" class ="Text">none of these words:</label>  </th>
+								<th>
+								<input class="form-control form-control-sm" value="" id="none" name="as_eq" type="text"> 
+								</th>
+						</tr>							
+							
+								
+							
+					</table>
+					 
+					
+				<div class="Button" style="text-align:right"> 
+	
+					<input id="CIGjud" name="tbs" type="hidden" value=""> 
+					<input class="btn btn-primary"  value="Advanced Search" type="submit"> 
+				</div> 
+					  
+			</div>
+		</form>
 	</body>
 
 
